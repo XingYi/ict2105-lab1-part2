@@ -1,0 +1,23 @@
+
+
+
+User 5%, System 46%, IOW 0%, IRQ 0%
+User 15 + Nice 2 + Sys 139 + Idle 141 + IOW 0 + IRQ 0 + SIRQ 1 = 298
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  943  0  47% S   138 1220708K  96052K  fg system   system_server
+ 7428  0   4% R     1   2644K    948K     shell    top
+ 1219  0   1% S    44 1233736K 155252K  fg u0_a20   com.android.systemui
+ 6836  0   1% S     1      0K      0K     root     kworker/u8:0
+14161  0   0% S    14 922808K  20956K  bg u0_a168  com.sec.android.app.music:service
+ 2000  0   0% S     6   6232K    380K     root     /system/bin/mpdecision
+    8  0   0% S     1      0K      0K     root     rcu_preempt
+  391  0   0% S     1   1016K    300K     system   /system/bin/servicemanager
+ 7425  0   0% S     1      0K      0K     root     kworker/u8:2
+  392  0   0% S     5  30992K    912K     root     /system/bin/vold
+ 7427  0   0% S     1   1768K    852K     system   /system/bin/smdexe
+13647  2   0% S    22 962836K  23896K  bg u0_a37   com.sec.android.app.shealth
+  390  0   0% S     1   1440K    144K  fg root     /sbin/healthd
+   33  0   0% D     1      0K      0K     root     kworker/u9:0
+   23  1   0% S     1      0K      0K     root     khelper
+   

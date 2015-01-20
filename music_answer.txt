@@ -1,0 +1,27 @@
+----------------------------------------------------------
+Proccess Identified when running Google Play Music App
+----------------------------------------------------------
+*The processes listed below are ordered based on the "top" command in ADB shell.*
+*Do refer to "music_top_result_all.txt" as well to find the processes stated in here."
+
+/system/bin/mediaserver (android.process.media)
+
+com.sec.android.app.music:service
+com.sec.android.app.music:provider
+
+com.google.android.music.ui
+com.google.android.music.main
+
+
+---------------------------------------------------------
+Description
+---------------------------------------------------------
+There are more than 1 process that play the music.
+
+<<android.process.media>> is responsible for reading the music file into the player. This definitely tops the list most of the time due to the constant need of retrieving data from the memory.
+
+<<com.sec.android.app.music:service>> and 
+<<com.sec.android.app.music:provider>> are background services to play the music be it when the Goople Play Music app is in the foreground or background, or even the phone is locked. These processes appear below <<android.process.media>> due to the need of <<android.process.media>> reading the data before the music services are able to play the music.
+
+<<com.google.android.music.ui>> and
+<<com.google.android.music.main>> are simply Google Play Music App that has a user interface app controller that invokes the relevant processes to play the music.

@@ -1,0 +1,17 @@
+
+
+
+User 4%, System 11%, IOW 0%, IRQ 0%
+User 26 + Nice 0 + Sys 73 + Idle 545 + IOW 0 + IRQ 0 + SIRQ 0 = 644
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  421  0   2% S    44 258856K  13252K  fg media    /system/bin/mediaserver
+ 8474  0   2% R     1   2648K    948K     shell    top
+  943  1   1% S   138 1227888K 110220K  fg system   system_server
+ 7696  1   1% S    50 1083468K 109444K  fg u0_a135  com.google.android.music:ui
+  418  1   1% S    14 134676K   3760K  fg system   /system/bin/surfaceflinger
+  405  0   0% S     8  10812K    884K     root     /system/bin/netd
+ 7573  1   0% S     1      0K      0K     root     kworker/u8:7
+ 2000  0   0% S     6   6232K    380K     root     /system/bin/mpdecision
+  318  1   0% S     1      0K      0K     root     irq/571-SSP_Int
+ 1219  0   0% S    43 1202380K 155468K  fg u0_a20   com.android.systemui
